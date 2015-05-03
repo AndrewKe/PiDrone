@@ -24,7 +24,6 @@
 		A1D5C79A1AD46E1800929438 /* raspilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C7991AD46E1800929438 /* raspilogo.png */; };
 		A1D5C79C1AD46E3E00929438 /* mavlink.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C79B1AD46E3E00929438 /* mavlink.png */; };
 		A1D5C79E1AD4711B00929438 /* quadcopter icon_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C79D1AD4711B00929438 /* quadcopter icon_2x.png */; };
-		A1E0AD231AE363A80048036C /* Reachibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0AD221AE363A80048036C /* Reachibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +59,6 @@
 		A1D5C7991AD46E1800929438 /* raspilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raspilogo.png; sourceTree = "<group>"; };
 		A1D5C79B1AD46E3E00929438 /* mavlink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mavlink.png; sourceTree = "<group>"; };
 		A1D5C79D1AD4711B00929438 /* quadcopter icon_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quadcopter icon_2x.png"; sourceTree = "<group>"; };
-		A1E0AD221AE363A80048036C /* Reachibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				A1D5C7711AD468CC00929438 /* AppDelegate.swift */,
-				A1E0AD221AE363A80048036C /* Reachibility.swift */,
 				A1D5C7731AD468CC00929438 /* ViewController.swift */,
 				A1D351F71AD6F92F00D742CE /* WebModel.swift */,
 				A1D5C7751AD468CC00929438 /* Main.storyboard */,
@@ -263,7 +260,6 @@
 			files = (
 				A1D5C7741AD468CC00929438 /* ViewController.swift in Sources */,
 				A1D5C7721AD468CC00929438 /* AppDelegate.swift in Sources */,
-				A1E0AD231AE363A80048036C /* Reachibility.swift in Sources */,
 				A1D351F81AD6F92F00D742CE /* WebModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
