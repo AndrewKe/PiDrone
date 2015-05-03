@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A17893B01AD6ECE500C54352 /* red dot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A17893AF1AD6ECE500C54352 /* red dot.jpg */; };
+		A17893B21AD6EEDF00C54352 /* shutter.png in Resources */ = {isa = PBXBuildFile; fileRef = A17893B11AD6EEDF00C54352 /* shutter.png */; };
+		A19F451C1AED9ED4008D2974 /* miniquad.png in Resources */ = {isa = PBXBuildFile; fileRef = A19F451B1AED9ED4008D2974 /* miniquad.png */; };
+		A19F451E1AEDA57C008D2974 /* homeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19F451D1AEDA57C008D2974 /* homeicon.png */; };
+		A1D351F81AD6F92F00D742CE /* WebModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D351F71AD6F92F00D742CE /* WebModel.swift */; };
+		A1D5C7721AD468CC00929438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5C7711AD468CC00929438 /* AppDelegate.swift */; };
+		A1D5C7741AD468CC00929438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5C7731AD468CC00929438 /* ViewController.swift */; };
+		A1D5C7771AD468CC00929438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C7751AD468CC00929438 /* Main.storyboard */; };
+		A1D5C7791AD468CC00929438 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C7781AD468CC00929438 /* Images.xcassets */; };
+		A1D5C77C1AD468CC00929438 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C77A1AD468CC00929438 /* LaunchScreen.xib */; };
+		A1D5C7881AD468CC00929438 /* PiDroneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5C7871AD468CC00929438 /* PiDroneTests.swift */; };
+		A1D5C7921AD46A9D00929438 /* baylands.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C7911AD46A9D00929438 /* baylands.png */; };
+		A1D5C7941AD46BAA00929438 /* battery-full.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C7931AD46BAA00929438 /* battery-full.png */; };
+		A1D5C7981AD46DB200929438 /* video-camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C7971AD46DB200929438 /* video-camera-icon.png */; };
+		A1D5C79A1AD46E1800929438 /* raspilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C7991AD46E1800929438 /* raspilogo.png */; };
+		A1D5C79C1AD46E3E00929438 /* mavlink.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C79B1AD46E3E00929438 /* mavlink.png */; };
+		A1D5C79E1AD4711B00929438 /* quadcopter icon_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C79D1AD4711B00929438 /* quadcopter icon_2x.png */; };
+		A1E0AD231AE363A80048036C /* Reachibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E0AD221AE363A80048036C /* Reachibility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1D5C7821AD468CC00929438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D5C7641AD468CC00929438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D5C76B1AD468CC00929438;
+			remoteInfo = PiDrone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A17893AF1AD6ECE500C54352 /* red dot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "red dot.jpg"; sourceTree = "<group>"; };
+		A17893B11AD6EEDF00C54352 /* shutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutter.png; sourceTree = "<group>"; };
+		A19F451B1AED9ED4008D2974 /* miniquad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniquad.png; sourceTree = "<group>"; };
+		A19F451D1AEDA57C008D2974 /* homeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeicon.png; sourceTree = "<group>"; };
+		A1A6FFE91AED63D10076A7A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A1D351F71AD6F92F00D742CE /* WebModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebModel.swift; sourceTree = "<group>"; };
+		A1D5C76C1AD468CC00929438 /* PiDrone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiDrone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D5C7701AD468CC00929438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D5C7711AD468CC00929438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1D5C7731AD468CC00929438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1D5C7761AD468CC00929438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1D5C7781AD468CC00929438 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1D5C77B1AD468CC00929438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A1D5C7811AD468CC00929438 /* PiDroneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiDroneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D5C7861AD468CC00929438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D5C7871AD468CC00929438 /* PiDroneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiDroneTests.swift; sourceTree = "<group>"; };
+		A1D5C7911AD46A9D00929438 /* baylands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baylands.png; sourceTree = "<group>"; };
+		A1D5C7931AD46BAA00929438 /* battery-full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-full.png"; sourceTree = "<group>"; };
+		A1D5C7971AD46DB200929438 /* video-camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-camera-icon.png"; sourceTree = "<group>"; };
+		A1D5C7991AD46E1800929438 /* raspilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raspilogo.png; sourceTree = "<group>"; };
+		A1D5C79B1AD46E3E00929438 /* mavlink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mavlink.png; sourceTree = "<group>"; };
+		A1D5C79D1AD4711B00929438 /* quadcopter icon_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quadcopter icon_2x.png"; sourceTree = "<group>"; };
+		A1E0AD221AE363A80048036C /* Reachibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachibility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1D5C7691AD468CC00929438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D5C77E1AD468CC00929438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1D5C7631AD468CC00929438 = {
+			isa = PBXGroup;
+			children = (
+				A1A6FFE91AED63D10076A7A1 /* CoreLocation.framework */,
+				A1D5C76E1AD468CC00929438 /* PiDrone */,
+				A1D5C7841AD468CC00929438 /* PiDroneTests */,
+				A1D5C76D1AD468CC00929438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1D5C76D1AD468CC00929438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1D5C76C1AD468CC00929438 /* PiDrone.app */,
+				A1D5C7811AD468CC00929438 /* PiDroneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D5C76E1AD468CC00929438 /* PiDrone */ = {
+			isa = PBXGroup;
+			children = (
+				A1D5C7711AD468CC00929438 /* AppDelegate.swift */,
+				A1E0AD221AE363A80048036C /* Reachibility.swift */,
+				A1D5C7731AD468CC00929438 /* ViewController.swift */,
+				A1D351F71AD6F92F00D742CE /* WebModel.swift */,
+				A1D5C7751AD468CC00929438 /* Main.storyboard */,
+				A1D5C7781AD468CC00929438 /* Images.xcassets */,
+				A1D5C77A1AD468CC00929438 /* LaunchScreen.xib */,
+				A1D5C76F1AD468CC00929438 /* Supporting Files */,
+			);
+			path = PiDrone;
+			sourceTree = "<group>";
+		};
+		A1D5C76F1AD468CC00929438 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A19F451D1AEDA57C008D2974 /* homeicon.png */,
+				A19F451B1AED9ED4008D2974 /* miniquad.png */,
+				A17893B11AD6EEDF00C54352 /* shutter.png */,
+				A17893AF1AD6ECE500C54352 /* red dot.jpg */,
+				A1D5C79D1AD4711B00929438 /* quadcopter icon_2x.png */,
+				A1D5C79B1AD46E3E00929438 /* mavlink.png */,
+				A1D5C7991AD46E1800929438 /* raspilogo.png */,
+				A1D5C7971AD46DB200929438 /* video-camera-icon.png */,
+				A1D5C7931AD46BAA00929438 /* battery-full.png */,
+				A1D5C7911AD46A9D00929438 /* baylands.png */,
+				A1D5C7701AD468CC00929438 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1D5C7841AD468CC00929438 /* PiDroneTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D5C7871AD468CC00929438 /* PiDroneTests.swift */,
+				A1D5C7851AD468CC00929438 /* Supporting Files */,
+			);
+			path = PiDroneTests;
+			sourceTree = "<group>";
+		};
+		A1D5C7851AD468CC00929438 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1D5C7861AD468CC00929438 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1D5C76B1AD468CC00929438 /* PiDrone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D5C78B1AD468CC00929438 /* Build configuration list for PBXNativeTarget "PiDrone" */;
+			buildPhases = (
+				A1D5C7681AD468CC00929438 /* Sources */,
+				A1D5C7691AD468CC00929438 /* Frameworks */,
+				A1D5C76A1AD468CC00929438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiDrone;
+			productName = PiDrone;
+			productReference = A1D5C76C1AD468CC00929438 /* PiDrone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1D5C7801AD468CC00929438 /* PiDroneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D5C78E1AD468CC00929438 /* Build configuration list for PBXNativeTarget "PiDroneTests" */;
+			buildPhases = (
+				A1D5C77D1AD468CC00929438 /* Sources */,
+				A1D5C77E1AD468CC00929438 /* Frameworks */,
+				A1D5C77F1AD468CC00929438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D5C7831AD468CC00929438 /* PBXTargetDependency */,
+			);
+			name = PiDroneTests;
+			productName = PiDroneTests;
+			productReference = A1D5C7811AD468CC00929438 /* PiDroneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1D5C7641AD468CC00929438 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Andrew Ke";
+				TargetAttributes = {
+					A1D5C76B1AD468CC00929438 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 3876732URN;
+					};
+					A1D5C7801AD468CC00929438 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A1D5C76B1AD468CC00929438;
+					};
+				};
+			};
+			buildConfigurationList = A1D5C7671AD468CC00929438 /* Build configuration list for PBXProject "PiDrone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1D5C7631AD468CC00929438;
+			productRefGroup = A1D5C76D1AD468CC00929438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1D5C76B1AD468CC00929438 /* PiDrone */,
+				A1D5C7801AD468CC00929438 /* PiDroneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1D5C76A1AD468CC00929438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D5C79A1AD46E1800929438 /* raspilogo.png in Resources */,
+				A17893B01AD6ECE500C54352 /* red dot.jpg in Resources */,
+				A17893B21AD6EEDF00C54352 /* shutter.png in Resources */,
+				A1D5C7771AD468CC00929438 /* Main.storyboard in Resources */,
+				A1D5C7981AD46DB200929438 /* video-camera-icon.png in Resources */,
+				A1D5C79E1AD4711B00929438 /* quadcopter icon_2x.png in Resources */,
+				A19F451C1AED9ED4008D2974 /* miniquad.png in Resources */,
+				A1D5C7941AD46BAA00929438 /* battery-full.png in Resources */,
+				A19F451E1AEDA57C008D2974 /* homeicon.png in Resources */,
+				A1D5C7921AD46A9D00929438 /* baylands.png in Resources */,
+				A1D5C77C1AD468CC00929438 /* LaunchScreen.xib in Resources */,
+				A1D5C79C1AD46E3E00929438 /* mavlink.png in Resources */,
+				A1D5C7791AD468CC00929438 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D5C77F1AD468CC00929438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1D5C7681AD468CC00929438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D5C7741AD468CC00929438 /* ViewController.swift in Sources */,
+				A1D5C7721AD468CC00929438 /* AppDelegate.swift in Sources */,
+				A1E0AD231AE363A80048036C /* Reachibility.swift in Sources */,
+				A1D351F81AD6F92F00D742CE /* WebModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D5C77D1AD468CC00929438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D5C7881AD468CC00929438 /* PiDroneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1D5C7831AD468CC00929438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D5C76B1AD468CC00929438 /* PiDrone */;
+			targetProxy = A1D5C7821AD468CC00929438 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1D5C7751AD468CC00929438 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D5C7761AD468CC00929438 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1D5C77A1AD468CC00929438 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D5C77B1AD468CC00929438 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1D5C7891AD468CC00929438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A1D5C78A1AD468CC00929438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1D5C78C1AD468CC00929438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PiDrone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1D5C78D1AD468CC00929438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PiDrone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1D5C78F1AD468CC00929438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiDroneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiDrone.app/PiDrone";
+			};
+			name = Debug;
+		};
+		A1D5C7901AD468CC00929438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiDroneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiDrone.app/PiDrone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1D5C7671AD468CC00929438 /* Build configuration list for PBXProject "PiDrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D5C7891AD468CC00929438 /* Debug */,
+				A1D5C78A1AD468CC00929438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D5C78B1AD468CC00929438 /* Build configuration list for PBXNativeTarget "PiDrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D5C78C1AD468CC00929438 /* Debug */,
+				A1D5C78D1AD468CC00929438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D5C78E1AD468CC00929438 /* Build configuration list for PBXNativeTarget "PiDroneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D5C78F1AD468CC00929438 /* Debug */,
+				A1D5C7901AD468CC00929438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1D5C7641AD468CC00929438 /* Project object */;
+}
