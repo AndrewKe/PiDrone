@@ -10,6 +10,8 @@
 		A17893B01AD6ECE500C54352 /* red dot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A17893AF1AD6ECE500C54352 /* red dot.jpg */; };
 		A17893B21AD6EEDF00C54352 /* shutter.png in Resources */ = {isa = PBXBuildFile; fileRef = A17893B11AD6EEDF00C54352 /* shutter.png */; };
 		A19998421B001143002B265D /* miniquad.png in Resources */ = {isa = PBXBuildFile; fileRef = A19998411B001143002B265D /* miniquad.png */; };
+		A19998441B00224D002B265D /* home-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19998431B00224D002B265D /* home-icon.png */; };
+		A19998481B0027CF002B265D /* camera-icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = A19998471B0027CF002B265D /* camera-icon.gif */; };
 		A19F451E1AEDA57C008D2974 /* homeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A19F451D1AEDA57C008D2974 /* homeicon.png */; };
 		A1D351F81AD6F92F00D742CE /* WebModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D351F71AD6F92F00D742CE /* WebModel.swift */; };
 		A1D5C7721AD468CC00929438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5C7711AD468CC00929438 /* AppDelegate.swift */; };
@@ -40,6 +42,8 @@
 		A17893AF1AD6ECE500C54352 /* red dot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "red dot.jpg"; sourceTree = "<group>"; };
 		A17893B11AD6EEDF00C54352 /* shutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutter.png; sourceTree = "<group>"; };
 		A19998411B001143002B265D /* miniquad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniquad.png; sourceTree = "<group>"; };
+		A19998431B00224D002B265D /* home-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-icon.png"; sourceTree = "<group>"; };
+		A19998471B0027CF002B265D /* camera-icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "camera-icon.gif"; sourceTree = "<group>"; };
 		A19F451D1AEDA57C008D2974 /* homeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeicon.png; sourceTree = "<group>"; };
 		A1A6FFE91AED63D10076A7A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A1D351F71AD6F92F00D742CE /* WebModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebModel.swift; sourceTree = "<group>"; };
@@ -115,8 +119,10 @@
 		A1D5C76F1AD468CC00929438 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A19998431B00224D002B265D /* home-icon.png */,
 				A19F451D1AEDA57C008D2974 /* homeicon.png */,
 				A17893B11AD6EEDF00C54352 /* shutter.png */,
+				A19998471B0027CF002B265D /* camera-icon.gif */,
 				A17893AF1AD6ECE500C54352 /* red dot.jpg */,
 				A1D5C79D1AD4711B00929438 /* quadcopter icon_2x.png */,
 				A19998411B001143002B265D /* miniquad.png */,
@@ -228,7 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19998481B0027CF002B265D /* camera-icon.gif in Resources */,
 				A1D5C79A1AD46E1800929438 /* raspilogo.png in Resources */,
+				A19998441B00224D002B265D /* home-icon.png in Resources */,
 				A17893B01AD6ECE500C54352 /* red dot.jpg in Resources */,
 				A17893B21AD6EEDF00C54352 /* shutter.png in Resources */,
 				A1D5C7771AD468CC00929438 /* Main.storyboard in Resources */,

@@ -45,6 +45,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         roundView(armingButton)
         roundView(homeButton)
         
+        
         var url = NSURL (string: "https://news.google.com/")
         if(model.safe == false){
             self.safeModeLabel.hidden = true

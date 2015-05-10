@@ -12,7 +12,7 @@ import UIKit
 
 class WebModel: NSObject{
     
-    var safe = false
+    var safe = true
     
     var batteryVoltage = 0
     var GPS = "NO FIX"

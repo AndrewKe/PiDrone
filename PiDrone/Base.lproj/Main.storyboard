@@ -53,9 +53,9 @@
                             </button>
                             <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAp-pf-cQk">
                                 <rect key="frame" x="16" y="698" width="50" height="50"/>
-                                <color key="backgroundColor" red="0.098039217293262482" green="0.098039217293262482" blue="0.098039217293262482" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.098039217293262482" green="0.098039217293262482" blue="0.098039217293262482" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="C" backgroundImage="red dot.jpg">
+                                <state key="normal" backgroundImage="camera-icon.gif">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -84,7 +84,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Altitude: 36.5 m Speed: 2.6 m/S  Yaw: 2.6° Pitch: 3.7° Roll: 1.6°" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ud2-30-7Fk">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Altitude: 36.5 m Speed: 2.6 m/S  Yaw: 2.6° Pitch: 3.7° Roll: 1.6°" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ud2-30-7Fk">
                                 <rect key="frame" x="837" y="305" width="171" height="158"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.83999999999999997" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
@@ -161,16 +161,16 @@
                                     <segment title="Video"/>
                                     <segment title="Map"/>
                                 </segments>
-                                <color key="tintColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="switchDisplay:" destination="BYZ-38-t0r" eventType="valueChanged" id="eF9-bj-Ca7"/>
                                 </connections>
                             </segmentedControl>
-                            <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cc-Oz-rZ4">
+                            <button opaque="NO" alpha="0.850000011920929" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cc-Oz-rZ4">
                                 <rect key="frame" x="246" y="698" width="50" height="50"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.88" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" backgroundImage="homeicon.png">
+                                <state key="normal" backgroundImage="home-icon.png">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -205,7 +205,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="homeicon.png" width="128" height="128"/>
+        <image name="camera-icon.gif" width="256" height="256"/>
+        <image name="home-icon.png" width="256" height="256"/>
         <image name="red dot.jpg" width="200" height="200"/>
     </resources>
 </document>
