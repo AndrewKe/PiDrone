@@ -1,8 +1,10 @@
-  _______ _            _____ _   _____                       
+
+    
+    A app for streaming video and receiving stats from a drone via wifi. Maker Faire 2015 Project
+
+    _______ _            _____ _   _____                       
  |__   __| |          |  __ (_) |  __ \                      
     | |  | |__   ___  | |__) |  | |  | |_ __ ___  _ __   ___ 
     | |  | '_ \ / _ \ |  ___/ | | |  | | '__/ _ \| '_ \ / _ \
     | |  | | | |  __/ | |   | | | |__| | | | (_) | | | |  __/
     |_|  |_| |_|\___| |_|   |_| |_____/|_|  \___/|_| |_|\___|
-    
-    A app for streaming video and receiving stats from a drone via wifi. Maker Faire 2015 Project
