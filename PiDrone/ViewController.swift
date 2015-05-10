@@ -1,12 +1,10 @@
-  //
+//
 //  ViewController.swift
 //  PiDrone
 //
 //  Created by Andrew Ke on 4/7/15.
 //  Copyright (c) 2015 Andrew Ke. All rights reserved.
 //
-//Ryan Chen
-//Another test
 import UIKit
 import MapKit
 
@@ -29,6 +27,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     var model:WebModel = WebModel()
     var droneMarker = MKPointAnnotation()
     var locationManager: CLLocationManager?
+    var droneMarkerImage: UIImage = UIImage(named:"miniquad.png")!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,6 +53,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let requestObj = NSURLRequest(URL: url!)
         //self.videoStreamer.scrollView.setZoomScale(2.0, animated: false)
         videoStreamer.loadRequest(requestObj);
+        println("Loaded web")
         
         let location = CLLocationCoordinate2D(
             latitude: model.lat,
@@ -68,11 +68,23 @@ class ViewController: UIViewController, MKMapViewDelegate {
         droneMarker.coordinate = CLLocationCoordinate2DMake(model.lat, model.long)
         droneMarker.title = "drone"
         mapView.addAnnotation(droneMarker)
+        
+        var image = UIImage(named:"miniquad.png")
+        let size = CGSizeApplyAffineTransform(image!.size, CGAffineTransformMakeScale(0.5, 0.5))
+        let hasAlpha = false
+        let scale: CGFloat = 0.0 // Automatically use scale factor of main screen
+        
+        UIGraphicsBeginImageContextWithOptions(size, hasAlpha, scale)
+        image!.drawInRect(CGRect(origin: CGPointZero, size: size))
+        
+        droneMarkerImage = UIGraphicsGetImageFromCurrentImageContext()
+        println("View did load complete")
     }
+    
     
     func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
         
-        println("HELLO!")
+        println("Setting annotation")
         let reuseId = "test"
         
         var anView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseId)
@@ -83,13 +95,11 @@ class ViewController: UIViewController, MKMapViewDelegate {
         else {
             anView.annotation = annotation
         }
-        
-        
+      
         //Set annotation-specific properties **AFTER**
         //the view is dequeued or created...
         if(annotation.title! == "drone"){
-            println("changing!")
-            anView.image = UIImage(named:"miniquad.png")
+            anView.image = droneMarkerImage
         }else{
             //user dot
             return nil
@@ -98,21 +108,12 @@ class ViewController: UIViewController, MKMapViewDelegate {
         return anView
     }
     
-    func mapView(mapView: MKMapView!, didUpdateUserLocation userLocation: MKUserLocation!) {
-        //println("Hello!")
-        //mapView.setCenterCoordinate(userLocation.coordinate, animated: true);
-    }
-    
     func mapViewDidFinishRenderingMap(mapView: MKMapView!, fullyRendered: Bool) {
-        println("Done!")
+        println("Map rendered")
     }
     
     @IBAction func centerAtHome() {
-        if(model.GPS == "FIX" || model.safe == true){
-            mapView.setCenterCoordinate(mapView.userLocation.location.coordinate, animated: true)
-        }else{
-            println("NO GPS, can't center on location")
-        }
+        mapView.setCenterCoordinate(mapView.userLocation.location.coordinate, animated: true)
     }
     
     
@@ -149,9 +150,6 @@ class ViewController: UIViewController, MKMapViewDelegate {
         }
         
         droneMarker.coordinate = CLLocationCoordinate2DMake(model.lat, model.long)
-        println("\(model.lat), \(model.long) ")
-        //self.mapView.removeAnnotation(droneMarker)
-        //self.mapView.addAnnotation(droneMarker)
     }
     
     @IBAction func changeMode() {
@@ -162,7 +160,6 @@ class ViewController: UIViewController, MKMapViewDelegate {
     @IBAction func selectMode(sender: UIButton) {
         self.modePickerView.hidden = true
         model.setFlightMode(sender.currentTitle!)
-        //self.flightModeLabel.setTitle(sender.currentTitle, forState: .Normal)
     }
     
     @IBAction func arm() {

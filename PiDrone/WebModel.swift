@@ -25,17 +25,17 @@ class WebModel: NSObject{
     var altitude:Double = 5
     var speed:Double = 5
     
-    var lat:Double = 37.411916
-    var long:Double = -121.995679
+    var lat:Double = 37.547438
+    var long:Double = -122.301796
     
     var armed = "ARM"
     
     var vehicleMode = "STABILIZE"
     
-    var serverStatus = false //true is Connected, False is not connected
+    var serverStatus = true //true is Connected, False is not connected
     var serverSpeed: Int = 0
     
-    var ipadress = "10.0.0.9"
+    var ipadress = "192.168.1.142"
     
     override init(){
         super.init()
@@ -58,6 +58,9 @@ class WebModel: NSObject{
             
             lat = json["lat"]!
             long = json["lon"]!
+            
+            lat = 37.547438
+            long = -122.301796
             
             //Decode integer to meaning of states (next three control flow things)
             if json["armed"]! == 0{
@@ -84,7 +87,7 @@ class WebModel: NSObject{
             case 3:
                 vehicleMode = "ALT_HOLD"
             default:
-                fatalError("NON STANDARD FLIGHT MODE USED!")
+                fatalError("NON STANDARD FLIGHT MODE USED")
             }
         }
     }
@@ -94,8 +97,10 @@ class WebModel: NSObject{
         var url = NSURL(string: urlToRequest)
         var data:NSData? = nil
         let start = NSDate()
+        println("Loading data ...")
         if !safe{
             data =  NSData(contentsOfURL: url!)
+            print(" successful")
         }
         let end = NSDate();
         serverSpeed = Int(round(1000*end.timeIntervalSinceDate(start)))

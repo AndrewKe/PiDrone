@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>136D41FB-AC5A-4CF2-8043-ED5A19F4FB34</string>
 	<key>IDESourceControlProjectName</key>
-	<string>PiDrone</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4E76EF99C735581369F9A41B8F3EB8998C0F62EE</key>
 		<string>https://github.com/AndrewKe/PiDrone.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PiDrone.xcodeproj</string>
+	<string>PiDrone.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4E76EF99C735581369F9A41B8F3EB8998C0F62EE</key>
